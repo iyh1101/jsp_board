@@ -1,0 +1,151 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+#box {
+    width: 400px;
+    height: 200px;
+    background-color: wheat;
+    border: 10px;
+    border-radius: 5px;
+	background-image:none;
+	
+    margin:0 auto;
+    margin-right: 200px;
+    margin-top: 400px;
+    box-shadow: 5px 5px 5px;
+}
+#contentbox {
+    width: 600px;
+    height: 300px;
+    background-color: ivory;
+    border: 10px;
+    border-radius: 5px;
+	background-image:none;
+    box-shadow: 3px 3px 3px;
+    
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#main {
+	background-image:url('back.jpg');
+}
+#like-button {
+	margin:0 auto;
+	margin-left: 260px;
+}
+
+#login {
+	background-image:none;
+	border-width:3px;
+	border-radius:5px;
+	border-color:#8ce159;
+}
+
+#new_account {
+	background-image:none;
+	border-radius:5px;
+	border-color:gold;
+}
+
+bb {
+	display:right;
+	color:rgb(252, 122, 52);
+	font-size:18pt;
+	font-weight:550;
+	background-image:none;
+}
+
+input {
+	border-width: 2px;
+	border-radius: 4px;
+}
+
+textarea {
+	border-width: 2px;
+	border-radius: 4px;
+	resize:none;
+}
+
+#account_cancel {
+	position:relative;
+	left:320px;
+	top:142px;
+}
+
+#account_cancel2 {
+	position:relative;
+	left:245px;
+	top:76px;
+}
+
+#w_title {
+	width:400px;
+	height: 25px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+#m_title {
+	width:400px;
+	height: 25px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+#write {
+	width: 442px;
+	height: 180px;
+	font-size: 11pt;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+#m_write {
+	width: 443px;
+	height: 180px;
+	font-size: 11pt;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+#r_comment {
+	width: 278px;
+	height: 40px;
+	font-size: 11pt;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+#r_comment2 {
+	width: 279px;
+	height: 40px;
+	font-size: 11pt;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+
+#w_button1 {
+	text-align:center;
+	width:65px;
+	height:38px;
+	position:relative;
+	bottom:15px;
+	left: 10px;
+	background-color:#8ce159;
+	font-weight:bold;
+}
+#m_button1 {
+	text-align:center;
+	width:65px;
+	height:38px;
+	position:relative;
+	bottom:14px;
+	left: 10px;
+	background-color:#8ce159;
+	font-weight:bold;
+}
+
+#w_button2 {
+	text-align:center;
+	width:50px;
+	height:38px;
+	background-color:darkgrey;
+}
+#m_button2 {
+	text-align:center;
+	width:50px;
+	height:38px;
+	background-color:darkgrey;
+}
